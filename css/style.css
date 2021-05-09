@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: Helvetica, sans-serif;
+  background-color: ghostwhite;
+}
+
+.wrapper {
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 7rem;
+}
+
+.main__title {
+  font-size: 2.4rem;
+  
+}
+
+.main__value {
+  margin: 0.7rem 0;
+  font-size: 5rem;
+}
+
+.main__btn {
+  cursor: pointer;
+  letter-spacing: 0.1rem;
+  font-size: 0.8rem;
+  padding: 0.9rem;
+  margin: 0 0.4rem;
+  border: darkgray 1px solid;
+}
+
+
+
